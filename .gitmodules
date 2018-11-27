@@ -1,0 +1,3 @@
+[submodule "SparseMatrix"]
+	path = SparseMatrix
+	url = https://github.com/VitorBisterso/SparseMatrix.git
