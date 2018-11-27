@@ -47,6 +47,14 @@ void Graph::deleteEdge(string v1, string v2)
 
 ostream& operator<<(ostream &os, const Graph& graph)
 {
+    os << "Vertexes" << endl;
+    os << "--------" << endl;
+    for (int i = 0; i < graph.vertexNames.size(); i++)
+        os << "Index: " << i << " Name: " << graph.vertexNames[i] << endl;
+
+    os << endl;
+    os << "Graph" << endl;
+    os << "-----" << endl << endl;
     os << *graph.edges;
     return os;
 }
